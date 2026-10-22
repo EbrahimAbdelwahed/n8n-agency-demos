@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automazioni n8n per agenzie</title>
+<meta name="description" content="Quattro automazioni n8n per agenzie di marketing, da rivendere ai clienti in white label. Ognuna con il suo video demo.">
+<meta property="og:title" content="Automazioni n8n per agenzie di marketing">
+<meta property="og:description" content="Lead che ricevono risposta in 60 secondi, report mensili automatici, recensioni Google sotto controllo.">
+<meta property="og:image" content="img/01-lead.jpg">
+<style>
+  :root {
+    --bg: #0b1020; --text: #f8fafc; --muted: #94a3b8; --soft: #cbd5e1;
+    --accent: #f9a8b8; --check: #34d399; --card: rgba(255,255,255,.04); --line: rgba(255,255,255,.08);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-image: radial-gradient(circle at 15% 0%, rgba(234,75,113,.18), transparent 35%), radial-gradient(circle at 90% 30%, rgba(37,99,235,.18), transparent 40%);
+    background-attachment: fixed; }
+  main { max-width: 1080px; margin: 0 auto; padding: 72px 16px 96px; }
+  .kicker { color: var(--accent); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 14px; }
+  h1 { font-size: clamp(34px, 6vw, 60px); line-height: 1.05; letter-spacing: -.03em; margin: 12px 0 18px; text-wrap: balance; }
+  .lead { color: var(--soft); font-size: clamp(18px, 2.2vw, 21px); max-width: 720px; margin: 0; }
+  .demos { display: grid; gap: 56px; margin-top: 64px; }
+  .demo { display: grid; grid-template-columns: 1.35fr 1fr; gap: 32px; align-items: start; }
+  video { width: 100%; border-radius: 12px; background: #000; box-shadow: 0 24px 60px rgba(0,0,0,.45); display: block; }
+  .demo h2 { font-size: 26px; line-height: 1.2; margin: 6px 0 10px; letter-spacing: -.01em; }
+  .demo .for { color: var(--muted); font-size: 15px; margin: 0 0 14px; }
+  ul { list-style: none; padding: 0; margin: 0 0 16px; }
+  li { padding: 4px 0 4px 28px; position: relative; color: var(--soft); }
+  li::before { content: "✓"; position: absolute; left: 0; color: var(--check); font-weight: 800; }
+  a { color: var(--text); text-underline-offset: 3px; }
+  .more { font-size: 15px; color: var(--muted); }
+  .why { margin-top: 80px; padding: 32px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); }
+  .why h2 { margin: 0 0 12px; font-size: 24px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 15px; }
+  @media (max-width: 760px) {
+    main { padding-top: 48px; }
+    .demo { grid-template-columns: 1fr; gap: 18px; }
+    .demos { gap: 48px; margin-top: 44px; }
+    .why { padding: 22px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Automazioni n8n per agenzie di marketing</div>
+  <h1>Quattro automazioni da rivendere ai vostri clienti</h1>
+  <p class="lead">Costruite con n8n, lo standard di mercato, e personalizzabili per ogni cliente cambiando un solo blocco di configurazione. Un breve video ciascuna.</p>
+
+  <div class="demos">
+    <section class="demo">
+      <video src="video/01-lead-in-60-secondi.mp4" poster="img/01-lead.jpg" controls preload="none" playsinline></video>
+      <div>
+        <div class="kicker">Demo 1</div>
+        <h2>Il lead che riceve risposta in 60 secondi</h2>
+        <p class="for">Studi medici e dentistici, centri estetici, palestre, immobiliari</p>
+        <ul>
+          <li>WhatsApp personalizzato pochi secondi dopo il modulo, anche di sera</li>
+          <li>L'AI capisce chi è un contatto caldo e lo segnala alla segreteria</li>
+          <li>Ogni contatto tracciato: numeri da mostrare al cliente</li>
+        </ul>
+        <a class="more" href="https://github.com/EbrahimAbdelwahed/n8n-agency-demos/tree/main/demos/01-lead-in-60-secondi">Come funziona →</a>
+      </div>
+    </section>
+
+    <section class="demo">
+      <video src="video/02-report-mensile.mp4" poster="img/02-report.jpg" controls preload="none" playsinline></video>
+      <div>
+        <div class="kicker">Demo 2</div>
+        <h2>Il report mensile che si scrive da solo</h2>
+        <p class="for">Tutte le agenzie con clienti in gestione Ads</p>
+        <ul>
+          <li>Dati Meta Ads e Google Analytics raccolti il primo del mese</li>
+          <li>Commento in italiano semplice, scritto per il titolare</li>
+          <li>L'account lo rivede in cinque minuti invece di due ore</li>
+        </ul>
+        <a class="more" href="https://github.com/EbrahimAbdelwahed/n8n-agency-demos/tree/main/demos/02-report-mensile">Come funziona →</a>
+      </div>
+    </section>
+
+    <section class="demo">
+      <video src="video/03-recensioni-google.mp4" poster="img/03-recensioni.jpg" controls preload="none" playsinline></video>
+      <div>
+        <div class="kicker">Demo 3</div>
+        <h2>Recensioni Google sotto controllo</h2>
+        <p class="for">Ristoranti, hotel, negozi, studi professionali</p>
+        <ul>
+          <li>Risposte personali alle recensioni positive, nel tono del locale</li>
+          <li>Le negative arrivano al titolare con una bozza pronta</li>
+          <li>Nessuna recensione dimenticata</li>
+        </ul>
+        <a class="more" href="https://github.com/EbrahimAbdelwahed/n8n-agency-demos/tree/main/demos/03-recensioni-google">Come funziona →</a>
+      </div>
+    </section>
+
+    <section class="demo">
+      <video src="video/04-prenotazioni-telefoniche.mp4" poster="img/04-prenotazioni.jpg" controls preload="none" playsinline></video>
+      <div>
+        <div class="kicker">Demo 4</div>
+        <h2>Il telefono che prende le prenotazioni</h2>
+        <p class="for">Ristoranti, pizzerie, agriturismi</p>
+        <ul>
+          <li>Un centralino con l'AI risponde a ogni chiamata, anche nel pieno del servizio</li>
+          <li>Rispetta le serate al completo e propone subito gli orari liberi</li>
+          <li>Il gestore accetta con uno swipe, il cliente riceve la conferma su WhatsApp</li>
+        </ul>
+        <a class="more" href="https://github.com/EbrahimAbdelwahed/n8n-agency-demos/tree/main/demos/04-prenotazioni-telefoniche">Come funziona →</a>
+      </div>
+    </section>
+  </div>
+
+  <section class="why">
+    <h2>Pensate per le agenzie</h2>
+    <ul>
+      <li>White label: nome, firma, tono di voce e canali di ogni cliente stanno in un unico blocco</li>
+      <li>Girano su n8n, self-hosted o su n8n Cloud: restano dell'agenzia</li>
+      <li>Si collegano a WhatsApp Business, Meta, Google, Slack, HubSpot e ai gestionali più diffusi</li>
+    </ul>
+  </section>
+
+  <footer>
+    Ebrahim Abdelwahed · <a href="https://github.com/EbrahimAbdelwahed/n8n-agency-demos">codice su GitHub</a>
+  </footer>
+</main>
+</body>
+</html>
