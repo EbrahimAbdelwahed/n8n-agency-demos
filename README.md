@@ -41,7 +41,7 @@ I workflow non sono pubblici: li installo e li personalizzo io sull'istanza n8n 
 
 ## Contatti
 
-Realizzato da **Ebrahim Abdelwahed**.
+Realizzato da **[Ebrahim Abdelwahed](https://ebrahim-portfolio.ebrahim06abdelwahed.workers.dev)**.
 Se lavori in un'agenzia e vuoi una di queste automazioni per i tuoi clienti, scrivimi: **[ebrahim06abdelwahed@gmail.com](mailto:ebrahim06abdelwahed@gmail.com?subject=Automazioni%20n8n%20per%20i%20nostri%20clienti)**
 
 Preventivo su misura: setup una tantum più manutenzione mensile.
